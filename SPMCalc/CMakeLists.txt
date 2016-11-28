@@ -3,5 +3,5 @@ project(SPMCalc)
 
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -std=c99")
 
-set(SOURCE_FILES main.c main.c)
+set(SOURCE_FILES main.c functions.h)
 add_executable(main ${SOURCE_FILES})
