@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 #include "functions.h"
 typedef int bool;
@@ -31,12 +32,11 @@ int main(){
                 res = mul();
                 break;
             case 'd':
-                res = div();
+                res = divide();
                 break;
             case 'q':
                 printf("Terminating...");
-                quit = false;
-                break;
+                exit(1);
             default:
                 printf("\nIncorrect input\n");
         }

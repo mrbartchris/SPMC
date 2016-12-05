@@ -1,8 +1,9 @@
 //
 // Created by Christian Bartolo on 28/11/2016.
 //
-
 #include <stdio.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 #ifndef SPMCALC_FUNCTIONS_H
 #define SPMCALC_FUNCTIONS_H
@@ -39,7 +40,7 @@ float mul(){
     return ans;
 }
 
-float div(){
+float divide(){
     printf("Enter a number");
     scanf("%f",&x);
     printf("Enter another number to be divided from");
