@@ -32,9 +32,9 @@ float sub(){
 
 float mul(){
     printf("Enter a number");
-    scanf("%f",x);
+    scanf("%f",&x);
     printf("Enter another number to be multiplied with");
-    scanf("%f",y);
+    scanf("%f",&y);
     ans = x*y;
     return ans;
 }
@@ -44,6 +44,6 @@ float div(){
     scanf("%f",&x);
     printf("Enter another number to be divided from");
     scanf("%f",&y);
-    float ans = x/y
+    float ans = x/y;
     return ans;
 }
