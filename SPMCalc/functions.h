@@ -26,7 +26,7 @@ float sub(){
     scanf("%f",&x);
     printf("Enter number to be subtracted:\n");
     scanf("%f",&y);
-    ans = x+y;
+    ans = x-y;
 
     return ans;
 }
