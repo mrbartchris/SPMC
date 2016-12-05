@@ -18,7 +18,7 @@ int main(){
 
         switch (choice) {
             case 'a':
-                res = add(testing);
+                res = add();
                 break;
             case 'b':
                 res = sub();
