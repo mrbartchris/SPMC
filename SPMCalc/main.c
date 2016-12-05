@@ -19,7 +19,7 @@ int main(){
         printf("\nc: MULTIPLY     d: DIVIDE");
         printf("\nEnter \'q\' to quit.");
         printf("\n\nEnter your choice: ");
-        scanf ("%[^\n]%*c",&choice);
+        scanf ("%c",&choice);
 
         switch (choice) {
             case 'a':
