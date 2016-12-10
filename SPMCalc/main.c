@@ -29,7 +29,7 @@ int main(){
                 res = sub();
                 break;
             case 'c':
-                res = mul();
+                res = mult();
                 break;
             case 'd':
                 res = divide();
