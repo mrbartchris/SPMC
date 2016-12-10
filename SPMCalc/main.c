@@ -23,7 +23,7 @@ int main(){
 
         switch (choice) {
             case 'a':
-                res = add(int n1[]);
+                res = add();
                 break;
             case 'b':
                 res = sub();
