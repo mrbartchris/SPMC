@@ -10,7 +10,7 @@
 
 #endif //SPMCALC_FUNCTIONS_H
 
-float y, ans;
+float x, y, ans;
 
 float add(){
 printf("Enter two numbers to be added:\n");
