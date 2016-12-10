@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
+#ifndef SPMCALC_FUNCTIONS_H
 #define SPMCALC_FUNCTIONS_H
 
 #endif //SPMCALC_FUNCTIONS_H
